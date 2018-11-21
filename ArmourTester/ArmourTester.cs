@@ -31,5 +31,10 @@ namespace ArmourTester
             }
 
         }
+        [TestMethod]
+        public void TestFail()
+        {
+            Assert.Fail();
+        }
     }
 }
